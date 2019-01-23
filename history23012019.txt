@@ -1,0 +1,70 @@
+    1  yum install java
+    2  yum install https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-6.5.4.rpm
+    3  cd /etc/elasticsearch/
+    4  ls
+    5  vi elasticsearch.yml
+    6  systemctl start elasticsearch
+    7  systemctl enable elasticsearch
+    8  curl localhost:9200
+    9  systemctl status  elasticsearch
+   10  tail -f
+   11  java --version
+   12  java -version
+   13  reboot
+   14  systemctl status elasticsearch
+   15  systemctl start  elasticsearch
+   16  systemctl status elasticsearch
+   17  free -m
+   18  cd /etc/elasticsearch/
+   19  ls
+   20  clear
+   21  vi jvm.options 
+   22  systemctl start elasticsearch.
+   23  systemctl start elasticsearch
+   24  systemctl status  elasticsearch
+   25  clear
+   26  curl localhost:9200
+   27  netstat -tnlp
+   28  netstat -tnlp
+   29  netstat -tnlp
+   30  curl localhost:9200
+   31  curl -XGET http:/localhost:9200/_cat/indices
+   32  curl -XGET http:/localhost:9200/
+   33  curl  http:/localhost:9200/
+   34  curl  localhost:9200/
+   35  curl -XGET localhost:9200/_cat/indices
+   36  curl -XGET localhost:9200/_cat/indices
+   37  yum install https://artifacts.elastic.co/downloads/kibana/kibana-6.5.4-x86_64.rpm
+   38  cd /etc
+   39  ls
+   40  cd kibana/
+   41  ls
+   42  vi kibana.yml 
+   43  ifconfig
+   44  fz
+   45  fg
+   46  fg
+   47  systemctl start kibana 
+   48  systemctl enable kibana 
+   49  netstat -tnlp
+   50  systemctl restart elasticsearch
+   51  netstat -tnlp
+   52  systemctl status elasticsearch
+   53  free -m
+   54  vi /etc/elasticsearch/jvm.options 
+   55  vi /etc/kibana/kibana.yml 
+   56  yum remove kibana
+   57  reboot
+   58  systemctl start elasticsearch
+   59  systemctl status elasticsearch
+   60  clear
+   61  yum instal git
+   62  yum instal git
+   63  mkdir /elkstack
+   64  cd /elkstack/
+   65  yum install git
+   66  yum install git
+   67  git clone https://github.com/jatin-ezibyte/ELK-Stack.git
+   68  cd ELK-Stack/
+   69  ls
+   70  history >history23012019.txt
